@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #272728;
+    
+}
+
+body.scrolled {
+    background-color: #604d4d; /* Color de fondo al desplazarse */
+}
+
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #aaf443; /* Color al pasar el mouse */
+}
+
+.btn-contacto {
+    background-color: #aaf443; /* Color del botón */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-contacto:hover {
+    background-color: #88c635; /* Color al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumento */
+}
+
+#portada {
+    background: url('foto.jpg') no-repeat center center/cover; /* Imagen de fondo */
+    color: white;
+    text-align: center;
+    padding: 100px 20px; /* Ajusta el padding según lo necesites */
+}
+
+#portada h1 {
+    font-size: 3em; /* Tamaño del nombre */
+    transition: transform 0.3s;
+}
+
+#portada h1:hover {
+    transform: scale(1.1); /* Aumentar al pasar el mouse */
+}
+
+#portada p {
+    font-size: 1.5em; /* Tamaño de la descripción */
+}
+
+.acerca,
+.habilidades,
+.contacto {
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+
+.perfil {
+    background-color: rgba(255, 255, 255, 0.1); /* Cuadro semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.foto-perfil {
+    width: 150px; /* Ajusta el tamaño de la foto */
+    height: 150px; /* Mantener la proporción */
+    border-radius: 50%; /* Hacer la imagen circular */
+    margin-bottom: 15px;
+}
+
+.habilidades {
+    padding: 40px 20px;
+}
+
+.habilidad {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px; /* Ajusta el tamaño del cuadro */
+}
+
+.icono {
+    width: 50px; /* Ajusta el tamaño del icono */
+    height: 50px; /* Ajusta el tamaño del icono */
+}
+
+footer {
+    background-color: black; /* Fondo negro para el footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(79, 160, 54); /* Color del título */
+}
+
+.galeria {
+    background-color: black; /* Fondo negro */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.proyecto {
+    background-color: rgba(255, 255, 255, 0.1); /* Cuadro semi-transparente */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 220px; /* Ajusta el tamaño del cuadro */
+    transition: transform 0.3s;
+}
+
+.proyecto:hover {
+    transform: scale(1.05); /* Aumentar al pasar el mouse */
+}
+
+.proyecto img {
+    width: 100%; /* Imagen ajustada al ancho del cuadro */
+    border-radius: 10px; /* Esquinas redondeadas para las imágenes */
+}
+
+h2 {
+    margin-bottom: 20px; /* Margen debajo del título */
+}

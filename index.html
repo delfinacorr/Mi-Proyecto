@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="Galeria.html">Proyectos</a></li>
+            </ul>
+            <a href="#contacto" class="btn-contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="portada">
+        <h1>Delfina Corradini</h1>
+       
+    </section>
+
+    <section id="acerca" class="acerca">
+        <h2>Acerca de mí</h2>
+        <div class="perfil">
+            <img src="fotoperfil.png" alt="Tu Foto" class="foto-perfil">
+            <p>Hola! mi nombre es Delfina,Actualmente me encuentro cursando el tercer año de ingeniería en sistemas en la universidad abierta Interamericana. 
+                busco alcanzar un alto rendimiento en mi carrera, logrando un equilibrio entre desafíos emocionantes y un crecimiento sostenible
+                consolidando mi experiencia y conocimientos.
+                Mi objetivo profesional es desarrollar mi carrera profesional en el sector it ,Ganar experiencia, apostar a nuevos proyectos y desafíos innovadores
+               ,Aportar ideas, trabajo en equipo y aprender de cada paso.</p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        <div class="habilidad">
+            <img src="navegador.png" alt="HTML y css" class="icono">
+            <h3>HTML Y CSS</h3>
+            <p>Lenguaje de marcado para la estructura de páginas web.</p>
+        </div>
+        <div class="habilidad">
+            <img src="usuarios-alt.png" alt="Comunicacion" class="icono">
+            <h3>Comunicacion</h3>
+            <p>Lenguaje de estilo para diseñar la apariencia de las páginas.</p>
+        </div>
+        <div class="habilidad">
+            <img src="capas.png" alt="Base de datos" class="icono">
+            <h3>Base de datos</h3>
+            <p>Lenguaje de programación para interactividad en la web.</p>
+        </div>
+        <div class="habilidad">
+            <img src="departamento.png" alt="trabajo en equipo" class="icono">
+            <h3>Trabajo en equipo</h3>
+            <p>Librería para construir interfaces de usuario.</p>
+        </div>
+
+        <div class="habilidad">
+            <img src="libro-marcador.png" alt="Autodidacta" class="icono">
+            <h3>Autodidacta</h3>
+            <p>Librería para construir interfaces de usuario.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para contactarme, envíame un correo a: <a href="mailto:delfinacorradini073@gmail.com">delfinacorradini073@gmail.com</a></p>
+        <a href="https://www.linkedin.com/in/delfina-corradini-668795224 " target="_blank" class="btn">Mi LinkedIn</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delfina Corradini. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.body.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+    
+</body>
+</html>
+
+
